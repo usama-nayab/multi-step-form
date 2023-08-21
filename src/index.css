@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* general theme begins */
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+h5 {
+  font-size: 25px;
+  font-weight: 400;
+}
+
+
+.custom-btn {
+  padding: 8px 50px;
+  background-color: #493eff;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  font-weight: 500;
+  margin: 10px 0;
+}
+
+.btns {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 20px;
+}
+
+form .alert {
+  background-color: #ffaf7e !important;
+  color: #fff !important;
+  border-radius: 30px !important;
+  border: none;
+}
+
+/* general theme ends */
+
+
+.multi-form {
+  height: 100vh;
+  width: 100vw;
+}
+
+.multi-form .container {
+  height: 100vh;
+}
+
+.multi-form .container .row {
+  height: 100%;
+}
+
+.multi-form-head {
+  background-color: #493eff;
+  height: 100vh;
+  width: 100%;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.multi-form-head-content {
+  padding: 0 15px;
+}
+
+.multi-form-head-content strong {
+  color: #ffaf7e;
+}
+
+.multi-form-head-content h5 {
+  width: 80%;
+}
+
+.individual-form {
+  padding: 0 15px;
+}
+
+.individual-form h1 {
+  color: #493eff;
+}
+
+.individual-form label {
+  font-weight: 500;
+}
+
+.individual-form input {
+  outline: none !important;
+  border-radius: 20px;
+}
+
+.form-control:focus,
+.form-select:focus {
+  box-shadow: none;
+}
+
+.sec-select {
+  overflow: hidden;
+  border: none;
+}
+
+.sec-select option {
+  font-size: 20px;
+  font-weight: 400;
+  cursor: pointer;
+  padding: 8px 12px;
+  border-radius: 40px;
+  border: 1px solid #493eff;
+  margin: 10px 0;
+}
+
+.sec-select option:hover {
+  background-color: #493eff;
+  color: #fff;
+}
+
+.sec-select option:checked:hover {
+  background-color: #493eff !important;
+  color: #fff;
+  box-shadow: #493eff !important;
+}
+
+.third-form .form-check {
+  font-size: 20px;
+  font-weight: 400;
+  cursor: pointer;
+  padding: 8px 30px;
+  margin: 10px 0;
+}
+
+.third-form .form-check input:focus {
+  box-shadow: none;
+}
+
+.fourth-step select {
+  font-size: 20px;
+  font-weight: 400;
+  cursor: pointer;
+  padding: 8px 30px;
+  margin: 25px 0;
+}
+
+.fourth-step select option {
+  background-color: #493eff;
+  color: #fff;
+  padding: 30px 20px;
+  height: 20px;
+}
+
+.fourth-step select option:hover {
+  color: #fff;
+  background-color: #493eff !important;
+}
+
+.fifth-step h4 {
+  color: #493eff;
+  font-weight: 600;
+  padding: 0;
+  margin-top: 30px;
+
+}
+
+.multi-form-head-content-spans span {
+  border-radius: 20px;
+  padding: 10px 30px;
+  background-color: #ffaf7e;
+  display: inline-block;
+  margin: 3px 5px;
+}
+
+.multi-form-head-content-spans h3 {
+  font-weight: 600;
+  margin: 10px 0;
+}
